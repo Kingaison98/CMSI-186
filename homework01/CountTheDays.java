@@ -1,28 +1,13 @@
-import java.util.Scanner;
 public class CountTheDays{
-   private static Scanner scanner = new Scanner(System.in);
    public static void main(String[] args){
+      int[] dates = new int[args.length];
+      for(int i = 0; i < 6; i++){
+        dates[i] = Integer.parseInt(args[i]);
+      }
       System.out.println("This program will compute the number of days between two dates.");
-      System.out.println("Please input the month of the first date as a number:");
-      String entry = scanner.nextLine();
-      int month1 = Integer.parseInt( entry );
-      System.out.println("Please input the day of the first date as a number:");
-      entry = scanner.nextLine();
-      int day1 = Integer.parseInt( entry );
-      System.out.println("Please input the year of the first date as a number:");
-      entry = scanner.nextLine();
-      int year1 = Integer.parseInt( entry );
-      System.out.println("Please input the month of the second date as a number:");
-      entry = scanner.nextLine();
-      int month2 = Integer.parseInt( entry );
-      System.out.println("Please input the day of the second date as a number:");
-      entry = scanner.nextLine();
-      int day2 = Integer.parseInt( entry );
-      System.out.println("Please input the year of the second date as a number:");
-      entry = scanner.nextLine();
-      int year2 = Integer.parseInt( entry );
-      System.out.println("There are " + CalendarStuff.daysBetween(month1, day1, year1, month2, day2, year2)
-       + " days between " + month1 + "/" + day1 + "/" + year1 + " and " + month2 +
-       "/" + day2 + "/" + year2 + ".");
+      System.out.println("There are " + CalendarStuff.daysBetween(dates[0],
+       dates[1], dates[2], dates[3], dates[4], dates[5]) + " days between " +
+      args[0] + "/" + args[1] + "/" + args[2] + " and " + args[3] + "/" + args[4] +
+      "/" + args[5] + ".");
    }
 }
