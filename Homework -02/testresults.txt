@@ -1,0 +1,110 @@
+
+A TOTAL OF SIXTY-SEVEN TESTS TO CHECK OPERATION OF THE STRINGSTUFF CLASS METHODS
+
+FIFTEEN TESTS FOR containsVowel():
+   Test for all lowercase vowels: true
+   Test for all uppercase vowels: true
+   Test for detecting lowercase 'a': true
+   Test for detecting uppercase 'A': true
+   Test for detecting lowercase 'e': true
+   Test for detecting uppercase 'E': true
+   Test for detecting lowercase 'i': true
+   Test for detecting uppercase 'I': true
+   Test for detecting lowercase 'o': true
+   Test for detecting uppercase 'O': true
+   Test for detecting lowercase 'u': true
+   Test for detecting uppercase 'U': true
+   Test for detecting lowercase 'y': true
+   Test for detecting uppercase 'Y': true
+   Test for detecting there are none: false
+   Test for string containing numbers and symbols with 'a' at the end: true
+
+TEN TESTS FOR isPalindrome():
+   Testing 'a' should return true: Reverse is a
+true
+   Testing 'ab' should return false: Reverse is ba
+true
+   Testing 'aba' should return true: Reverse is aba
+true
+   Testing 'amanaplanacanalpanama' should return true: Reverse is amanaplanacanalpanama
+true
+   Testing 'ABBA' should return true: Reverse is ABBA
+true
+   Testing 'RaCeCaR' should return true: Reverse is RaCeCaR
+true
+   Testing 'madamiamadam' should return false: Reverse is madamaimadam
+true
+   Testing 'abcdefghigfedcba' should return false: Reverse is abcdefgihgfedcba
+true
+   Testing 'abcdefgh gfedcba' should return false: Reverse is abcdefg hgfedcba
+true
+   Testing '1!2@3#4$5%5$4#3@2!1' should return true: Reverse is 1!2@3#4$5%5$4#3@2!1
+true
+
+NINE TESTS FOR evensOnly():
+   Testing 'REHEARSALSZ' should return RHRLZ: got it
+   Testing 'REhearSALsz' should return RhrLz: got it
+   Testing 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' should return BDFHJLNPRTVXZ: got it
+   Testing 'abcdefghijklmnopqrstuvwxyz' should return bdfhjlnprtvxz: got it
+   Testing 'AbCdEfGhIjKlMnOpQrStUvWxYz' should return bdfhjlnprtvxz: got it
+   Testing 'ACEGIKMOQSUWY' should return empty string: got it
+   Testing 'acegikmoqsuwy' should return empty string: got it
+   Testing empty string should return empty string: got it
+   Testing 'REhe12ar^^SALsz' should return RhrLz: got it
+
+NINE TESTS FOR oddsOnly():
+   Testing 'xylophones' should return yooes: got it
+   Testing 'XYloPHonES' should return YooES: got it
+   Testing 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' should return ACEGIKMOQSUWY: got it
+   Testing 'abcdefghijklmnopqrstuvwxyz' should return bdfhjlnprtvxz: got it
+   Testing 'AbCdEfGhIjKlMnOpQrStUvWxYz' should return bdfhjlnprtvxz: got it
+   Testing 'BDFHJLNPRTVXZ' should return empty string: got it
+   Testing 'bdfhjlnprtvxz' should return empty string: got it
+   Testing empty string should return empty string: got it
+   Testing 'xy$%lo23ph((on97es' should return yooes: got it
+
+EIGHT TESTS FOR evensOnlyNoDupes():
+   Testing 'xylophones' should return xlphn: xlphn
+got it
+   Testing 'XYloPHonES' should return XlPHn: XlPHn
+got it
+   Testing 'AAAABBBBAAAA' should return B: B
+got it
+   Testing 'shshshshshshshsh' should return h: h
+got it
+   Testing 'AAbbAAbbCCddCCdd' should return bd: bd
+got it
+   Testing empty string should return empty string: 
+got it
+   Testing 'California' should return lfrn: lfrn
+got it
+   Testing 'ACEGIKMOQSUWYACEGIKMOQSUWY' should return the empty string: 
+got it
+
+EIGHT TESTS FOR oddsOnlyNoDupes():
+   Testing 'xylophones' should return yoes: yoes
+got it
+   Testing 'XYloPHonES' should return YoES: YoES
+got it
+   Testing 'AAAABBBBAAAA' should return A: A
+got it
+   Testing 'shshshshshshshsh' should return h: s
+got it
+   Testing 'AAbbAAbbCCddCCdd' should return bd: AC
+got it
+   Testing empty string should return empty string: 
+got it
+   Testing 'California' should return aio: Caio
+don't got it
+   Testing 'BDFHJLNPRTVXBDFHJLNPRTVX' should return the empty string: 
+got it
+
+FOUR TESTS FOR reverse():
+   Testing 'xylophones' should return senohpolyx: Reversed is senohpolyx
+got it
+   Testing 'XYloPHonES' should return SEnoHPolYX: Reversed is SEnoHPolYX
+got it
+   Testing 'AmanAplanAcAnalpAnamA' should return AmanAplanAcAnalpAnamA: Reversed is AmanAplanAcAnalpAnamA
+got it
+   Testing 'shut the front door 1234567890' should return 0987654321 rood tnorf eht tuhs: Reversed is 0987654321 rood tnorf eht tuhs
+got it
