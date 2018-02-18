@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Evaluation for homework 02
 
 String Stuff and String Stuff Tester
@@ -23,3 +24,30 @@ Coding Style      : Style is consistent throughout    - 1 point
 Total 12.5 out of 13 = 96.15% which is an A
 
 Nice work!
+=======
+Evaluation for homework 02
+
+String Stuff and String Stuff Tester
+====================================
+
+A total of one point each for the following:
+
+class StringStuff : Exists, coding style acceptable   - 1 point
+containsVowel     : Total of 15 tests                 - 1 point
+isPalindrome      : Total of 10 tests; five failed    - 0.5 point
+evensOnly         : Total of  9 tests                 - 1 point
+oddsOnly          : Total of  9 tests                 - 1 point
+evensNoDupes      : Total of  8 tests                 - 1 point
+oddsNoDupes       : Total of  8 tests                 - 1 point
+reverse           : Total of  4 tests                 - 1 point
+main              : Main in StringStuff.java OR
+                     uses StringStuffTester.java      - 1 point
+error handling    : Gimme for this assignment         - 1 point
+argument checks   : Gimme for this assignment         - 1 point
+Files in Git      : At least StringStuff.java         - 1 point
+Coding Style      : Style is consistent throughout    - 1 point
+
+Total 12.5 out of 13 = 96.15% which is an A
+
+Nice work!
+>>>>>>> 0139e870f836326bd43f7e1d1483ae30cff91feb
