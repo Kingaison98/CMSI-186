@@ -1,0 +1,48 @@
+
+Evaluation for homework 03: Dice Game
+
+Die, DiceSet, and HighRoll Program
+Includes running DieAndDiceSetTestHarness
+Includes running automated HighRoll tests
+=========================================
+
+A total of one point each for the following:
+
+class Die         : Exists, coding style acceptable   - 1 point
+constructor       : works                             - 1 point
+roll              : works                             - 1 point
+getValue          : works                             - 1 point
+setSides          : works                             - 1 point
+instan. toString  : works                             - 1 point
+class toString    : works                             - 1 point
+main for testing  : Exists, with some tests in it     - 1 point
+
+class DiceSet     : Exists, coding style acceptable   - 1 point
+constructor       : works                             - 1 point
+sum               : works                             - 1 point
+roll              : works                             - 1 point
+rollIndividual    : works                             - 1 point
+getIndividual     : works                             - 1 point
+instan. toString  : works                             - 1 point
+class toString    : works                             - 1 point
+isIdentical       : works                             - 1 point
+main for testing  : Exists, with some tests in it     - 1 point
+
+class HighRoll    : Exists, coding style acceptable
+                     HARD-CODED COUNTS; NOT ARBITRARY - 0.34 point
+TUI:              : works, all options present        - 1 point
+option 1 roll all : works                             - 1 point
+option 2 roll one : works                             - 1 point
+option 3 sum      : works                             - 1 point
+option 4 save     : works                             - 1 point
+option 5 display  : works                             - 1 point
+option 6 quit     : works                             - 1 point
+
+Files in Git      : all three present                 - 1 point
+Test Harness      : passes all evaluation tests       - 1 point
+HighRoll          : passes all evaluation tests       - 0.67 points
+
+Total 28.01 out of 30 = 93.37% which is an A
+
+Nice work!
+
