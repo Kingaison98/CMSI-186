@@ -1,0 +1,41 @@
+
+Evaluation for homework 04: Clock Solver
+
+Clock and ClockSolver programs
+Includes running Clock main to observe tests
+Includes running automated ClockSolver tests
+   View testH$4.bat to see test parameters used
+===============================================
+
+A total of one point each for the following:
+
+class Clock             : Exists, coding style acceptable   -  1 point
+Constructor             : Freebie, since not really needed  -  1 point
+tick                    : works                             -  1 point
+getHourHandAngle        : works                             -  1 point
+getMinuteHandAngle      : works                             -  1 point
+getHandAngle            : works                             -  1 point
+getTotalSeconds         : works                             -  1 point
+toString                : works                             -  1 point
+main exists             : Exists                            -  1 point
+Test Code               : Contains some method test code    -  1 point
+
+class ClockSolver       : Exists, coding style acceptable   -  1 point
+Constructor             : Exists, works properly            -  1 point
+HandleInitialArguments  : works                             -  1.14 points (4/7)
+   didn't handle zero degree angle and -1.0 second time slice; infinite loop occurred
+   didn't handle zero second time slice argument; infinite loop occurred
+   didn't handle 1801.0 second time slice argument; infinite loop occurred
+
+main exists             : works                             -  1 point
+works as advertised     : passes all tests in the series    -  8 points
+   problem with java ClockSolver 90.0 1800.0: infinite loop occurred
+
+Files in Git            : two files required                -  2 points
+Coding Style overall    : coding style acceptable           -  1 point
+
+
+Total 25.14 out of 27 = 93.11% which is an A-minus
+
+Nice work!
+
