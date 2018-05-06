@@ -1,0 +1,36 @@
+
+Evaluation for homework 07: Dynamic Programming Change Maker
+
+DynamicChangeMaker class
+Includes running DynamicChangemakerTestHarness program
+Includes running h7.bat or h7.sh which includes running
+   from the command line
+   View h7.bat and/or h7.sh to see test parameters used
+   View testresults.txt to see resulting output
+NOTE: No abbreviations are allowed.
+=======================================================
+
+A total of one point each for the following,
+   except where noted:
+
+DynamicChangeMaker class file exists      :  1 point
+makeChangeWithDynamicProgramming          :  1 point
+JavaDocs Class                            :  1 point
+JavaDocs main                             :  1 point
+JavaDocs makeChange method                :  1 point
+DynamicChangeMaker compiles no errors     :  1 point
+DynamicChangeMaker tests pass (26 of 26)  : 26 points
+Extra credit  tests pass (12 of 12, 2 pts):  2 points [EC if completed]
+At least DybnamicChangeMaker in Git repo  :  1 point
+Coding Style                              :  1 point
+
+
+Total possible score: 34 points + 2 EC = 36 points
+
+Evaluation
+==========
+
+   36 out of 34 = 105.88% which is an A-plus
+
+Nice work!
+
